@@ -1,0 +1,14 @@
+.layout_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  & > span {
+    width: 70px;
+  }
+}
+.menu_wrapper {
+  width: 100%;
+  &>span {
+    margin-right: 8px;
+  }
+}
